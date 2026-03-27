@@ -11,7 +11,7 @@ website: https://github.com/vnimatiq/tiqhost-umbrel-store
 dependencies: []
 repo: https://github.com/vnimatiq/tiqhost-umbrel-store
 support: https://github.com/vnimatiq/tiqhost-umbrel-store/issues
-port: 3001
+port: 3005
 gallery:
   - 1.png
   - 2.png
