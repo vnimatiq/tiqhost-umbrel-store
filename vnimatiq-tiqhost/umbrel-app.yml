@@ -1,5 +1,5 @@
 manifestVersion: 1.0
-id: tiqhost
+id: "vnimatiq-tiqhost"
 name: TiqHost
 version: "1.0.0"
 tagline: Изящное и легкое управление деплоем и базами данных
