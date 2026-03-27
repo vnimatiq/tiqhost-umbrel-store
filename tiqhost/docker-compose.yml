@@ -1,0 +1,24 @@
+services:
+  tiqhost-ui:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+    depends_on:
+      - tiqhost-api
+    networks:
+      - tiqhost-network
+
+  tiqhost-api:
+    build:
+      context: ../server
+      dockerfile: Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - tiqhost-network
+
+networks:
+  tiqhost-network:
+    driver: bridge
