@@ -1,13 +1,20 @@
-manifestVersion: 1.0
+manifestVersion: 1
 id: "vnimatiq-tiqhost"
+category: developer-tools
 name: TiqHost
 version: "1.0.0"
-tagline: Изящное и легкое управление деплоем и базами данных
-icon: https://raw.githubusercontent.com/me/${APP_REPO}/main/icon.png
-category: developer_tools
+tagline: Изящное управление деплоем
 description: >-
-  TiqHost — минималистичный интерфейс для управления Docker-контейнерами на устройствах Umbrel OS.
-  Позволяет создавать и управлять базами данных PostgreSQL, а также настраивать автоматический деплой
-  приложений прямо из GitHub.
+  Изящное и легкое управление деплоем и базами данных для твоей системы.
+developer: vnimatiq
+website: https://github.com/vnimatiq/tiqhost-umbrel-store
+dependencies: []
+repo: https://github.com/vnimatiq/tiqhost-umbrel-store
+support: https://github.com/vnimatiq/tiqhost-umbrel-store/issues
 port: 3001
-filename: docker-compose.yml
+gallery:
+  - 1.png
+  - 2.png
+  - 3.png
+path: ""
+releaseNotes: "Первый релиз"
